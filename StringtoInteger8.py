@@ -47,15 +47,18 @@ class Solution:
                 num += 8 * pow(10, len(s) - 1 - i)
             elif s[i] == '9':
                 num += 9 * pow(10, len(s) - 1 - i)
+            
+            if num > 2147483648:
+                num = 2147483648
+                break
                 
-        
         if positive == False:
             num *=-1
+        
+        if positive and num > 2147483647:
+            num = 2147483647 
+        
             
-        if num < -2147483648:
-            num = -2147483648
-            
-        elif num > 2147483647:
-            num = 2147483647
+
         
         return num
