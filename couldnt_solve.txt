@@ -3,3 +3,4 @@ https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations
 https://leetcode.com/problems/longest-nice-substring/
 - https://leetcode.com/problems/maximum-number-of-eaten-apples/
 https://leetcode.com/problems/furthest-building-you-can-reach/
+https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
